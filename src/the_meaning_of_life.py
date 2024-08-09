@@ -1,4 +1,7 @@
-def theMeaningOfLife() -> None:
+"""Module to ask user for their name and what they think is the meaning of life."""
+
+
+def the_meaning_of_life() -> None:
     """
     Ask user for their name and what they think is the meaning of life,
     then print a summary of the results.
@@ -10,8 +13,8 @@ def theMeaningOfLife() -> None:
         )
     except KeyboardInterrupt:
         print("\nProgram interrupted by user.")
-    except Exception as e:
-        print(f"An error occurred: {str(e)}")
+    except EOFError:
+        print("\nProgram interrupted by user.")
 
     summary = "\nSUMMARY OF RESULTS\n"
     summary += f"\nName ==> {person_name}\n"
@@ -21,4 +24,4 @@ def theMeaningOfLife() -> None:
 
 
 if __name__ == "__main__":
-    theMeaningOfLife()
+    the_meaning_of_life()

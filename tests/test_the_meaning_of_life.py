@@ -1,12 +1,17 @@
+"""Module to test the function the_meaning_of_life() in the file the_meaning_of_life.py."""
+
 from unittest.mock import patch
-from src.theMeaningofLife import theMeaningOfLife
+from the_meaning_of_life import the_meaning_of_life
 
 
-def test_theMeaningOfLife():
+def test_the_meaning_of_life():
+    """
+    Test that the function the_meaning_of_life() prints the correct summary.
+    """
     with patch("builtins.input", side_effect=["Alice", "Happiness"]), patch(
         "builtins.print"
     ) as mocked_print:
-        theMeaningOfLife()
+        the_meaning_of_life()
 
         # Combine the print outputs into a single string
         expected_output = (
