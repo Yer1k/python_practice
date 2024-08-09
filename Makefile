@@ -10,7 +10,7 @@ format:
 
 lint:
 	pylint --recursive=y src tests
-	mypy src tests
+	mypy src/ tests/
 # --disable=R,C --ignore-patterns=test_.*?py tests/*.py
 
 
