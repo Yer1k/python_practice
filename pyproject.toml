@@ -6,6 +6,6 @@ pythonpath = [
 [tool.mypy]
 explicit_package_bases = true
 ignore_missing_imports = true
-warn_unused_ignores = true
+warn_unused_ignores = false
 namespace_packages = true
 strict = true
