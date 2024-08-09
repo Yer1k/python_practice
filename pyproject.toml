@@ -7,6 +7,5 @@ pythonpath = [
 explicit_package_bases = true
 ignore_missing_imports = true
 warn_unused_ignores = true
-mypy_path = "src"
 namespace_packages = true
 strict = true
