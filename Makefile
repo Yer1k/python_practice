@@ -9,8 +9,8 @@ format:
 	black src/*.py tests/*.py
 
 lint:
-	pylint --recursive=y src tests
-	mypy src tests
+	pylint --recursive=y src tests &&\
+		mypy src tests
 # --disable=R,C --ignore-patterns=test_.*?py tests/*.py
 
 
