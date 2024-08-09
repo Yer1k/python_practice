@@ -1,7 +1,7 @@
 """Module to test the function the_meaning_of_life() in the file the_meaning_of_life.py."""
 
 from unittest.mock import patch
-from the_meaning_of_life import the_meaning_of_life
+from the_meaning_of_life import the_meaning_of_life  # type: ignore
 
 
 def test_the_meaning_of_life():
