@@ -1,8 +1,5 @@
 # Repo for practicing writing python scripts
-
-## CI and CodeCov Status
 [![CI](https://github.com/Yer1k/python_practice/actions/workflows/cicd.yml/badge.svg?branch=main)](https://github.com/Yer1k/python_practice/actions/workflows/cicd.yml)
-
 [![codecov](https://codecov.io/github/Yer1k/python_practice/branch/main/graph/badge.svg?token=Q7RU0K2TQS)](https://codecov.io/github/Yer1k/python_practice)
 
 This repository utilizes GitHub Actions to run a Python package workflow that **formats**, **lints**, and **tests** the python scripts in the repository, followed by **installing the required packages**. The workflow is defined in the `.github/workflows/cicd.yml` and 'Makefile' files. The code coverage is tracked using `codecov`.
