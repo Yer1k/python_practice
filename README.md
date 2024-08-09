@@ -25,5 +25,8 @@ This repository contains python scripts that I have written to practice writing 
 1. [Extract Data: Extract countries from a continent file](./src/extract_countries.py)
     ![Extract countries output](./screenshots/extract_countries_output.png)
 
+1. [Simple sum of two numbers that input from the user](./src/slack_add.py)
+    ![Simple sum output](./screenshots/slack_add_output.png)
+    
 ### References
 - [Python Script Prompts](https://www.wiseowl.co.uk/python/exercises/python/)
