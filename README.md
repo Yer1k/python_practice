@@ -27,6 +27,9 @@ This repository contains python scripts that I have written to practice writing 
 
 1. [Simple sum of two numbers that input from the user](./src/slack_add.py)
     ![Simple sum output](./screenshots/slack_add_output.png)
-    
+
+1. [Analyzing the word counts of the length of words in a speech](./src/speech.py)
+    ![Speech output](./screenshots/speech_output.png)
+
 ### References
 - [Python Script Prompts](https://www.wiseowl.co.uk/python/exercises/python/)

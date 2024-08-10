@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=src/*.py --cov=tests tests/test_*.py --junitxml=junit.xml
+	python -m pytest -vv --cov=tests tests/test_*.py --junitxml=junit.xml
 
 format:	
 	black src/*.py tests/*.py
